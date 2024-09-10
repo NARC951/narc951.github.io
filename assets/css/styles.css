@@ -1,0 +1,127 @@
+/* Global Styles */
+body {
+    font-family: 'Courier New', Courier, monospace; /* Code-like font */
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d; /* Dark background */
+    color: #00ff00; /* Bright green text, typical of hacker themes */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    background-color: #111; /* Very dark background */
+    color: #00ff00; /* Bright green text */
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 2px solid #00ff00; /* Green bottom border */
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin: 0;
+    font-style: italic;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for feature blocks */
+    border: 1px solid #00ff00; /* Green border */
+    border-radius: 4px;
+    box-shadow: 0 0 10px #00ff00; /* Green glow effect */
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: #00ff00; /* Bright green color for icons */
+    margin-bottom: 10px;
+}
+
+.feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.feature p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #a8ff60; /* Light green text for better readability */
+}
+
+/* CTA Section */
+.cta {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+}
+
+.primary-btn {
+    background-color: transparent; /* Transparent background for button */
+    color: #00ff00; /* Green text */
+}
+
+.primary-btn:hover {
+    background-color: #00ff00; /* Green background on hover */
+    color: #0d0d0d; /* Dark text on hover */
+}
+
+.secondary-btn {
+    background-color: transparent; /* Transparent for secondary button */
+    color: #a8ff60; /* Light green text */
+    border: 2px solid #a8ff60;
+}
+
+.secondary-btn:hover {
+    background-color: #a8ff60; /* Light green background on hover */
+    color: #0d0d0d; /* Dark text on hover */
+}
+
+/* Footer */
+.footer {
+    background-color: #111; /* Dark background for footer */
+    color: #00ff00; /* Green text */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 2px solid #00ff00; /* Green top border */
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    font-style: italic;
+}

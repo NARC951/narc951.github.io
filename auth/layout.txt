@@ -1,0 +1,22 @@
+/your_project_root
+├── /assets
+│   ├── /css
+│   │   └── styles.css         # Main stylesheet for all pages
+│   ├── /js
+│   │   └── script.js          # Main JavaScript file for all pages
+│   └── /images
+│       └── logo.png           # Example image for branding or logo
+├── /includes
+│   ├── functions.php          # Common functions and database connection
+│   ├── admin-navbar.php       # Admin navbar include file
+│   └── user-navbar.php        # User navbar include file
+    |___ register.php **** Line 67 Error
+├── /pages
+│   ├── dashboard.php          # User dashboard page      *** make ui look better
+│   ├── add-balance.php        # Page for adding balance
+│   ├── manage-cards.php       # Admin page for managing cards
+│   └── admin-dashboard.php    # Admin dashboard page
+├── /auth
+│   ├── login.php              # User login page
+│   └── logout.php             # User logout page
+└─**─ index.php                  # Entry point or landing page
